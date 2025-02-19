@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    background: linear-gradient(135deg, #87CEEB, #87CEEB);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #ffffff;
+}
+
+
+.game-container {
+    text-align: center;
+    background: rgba(244, 247, 249, 0.998);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(135, 206, 235, 0.5);
+}
+
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #87CEEB;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+
+.timer {
+    font-size: 3.5em;
+    margin-bottom: 25px;
+    color: #87CEEB;
+    text-shadow: 3px 3px 6px #000000;
+    letter-spacing: 0.1em;
+}
+
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+button {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1em;
+    padding: 12px 25px;
+    margin: 10px;
+    border: 2px solid #f0f0f0;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #87CEEB;
+    color: #ffffff;
+    transition: all 0.3s;
+    box-shadow: 0px 6px 0px #87CEEB;
+}
+
+
+button:active {
+    box-shadow: 0px 3px 0px #87CEEB;
+    transform: translateY(3px);
+}
+
+button:hover {
+    background-color: #e4e6e7;
+}
+
+
+.laps {
+    margin-top: 20px;
+    text-align: left;
+    color: #87CEEB;
+}
+
+
+.laps h2 {
+    margin-bottom: 10px;
+}
+
+#lapsList {
+    list-style: none;
+    padding: 0;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+#lapsList li {
+    font-size: 1.2em;
+    padding: 5px 0;
+    border-bottom: 1px dashed #87CEEB;
+    color: #000000;
+}
