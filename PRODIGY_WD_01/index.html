@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Navigation Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet"> <!-- Add Google Font -->
+</head>
+<body>
+    <nav id="gaming-nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#games">Machine</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <section id="home">
+            <h1 class="section-title">HOME</h1>
+            <div class="carousel-container">
+                <div class="carousel-slide">
+                    <img src="assets\backgrounds\bg1.jpeg" alt="Game 1">
+                    <img src="assets\backgrounds\bg2.jpg" alt="Game 2">
+                    <img src="assets\backgrounds\bg3.jpg" alt="Game 3">
+                    <img src="assets\backgrounds\bg4.jpg" alt="Game 4">
+                    <img src="assets\backgrounds\bg5.jpg" alt="Game 5">
+                </div>
+            </div>
+            <div class="carousel-controls">
+                <button class="prev">❮</button>
+                <button class="next">❯</button>
+            </div>
+        </section>
+
+        <section id="games">
+            <h1 class="section-title">MACHINES</h1>
+            <div class="game-grid">
+
+                <div class="game-block">
+                    <h2>MARBLE CUTTER</h2>
+                    <img src="assets\gamess\g2.jpg" alt="Sins of a Solar Empire II" class="game-image" data-img-src="g2.jpg">
+                    <p>A marble cutter is a specialized power tool, typically a diamond-blade saw or grinder, used for cutting, shaping, and polishing marble, granite, and other stone materials with precision and control.</p>
+                </div>
+                <div class="game-block">
+                    <h2>JIG SAW</h2>
+                    <img src="assets\gamess\g4.jpg" alt="Dead by Daylight" class="game-image" data-img-src="g3.jpg">
+                    <p>A jigsaw is a versatile power tool used for curved or irregular cuts in various materials, such as wood, metal, or plastic, by moving a reciprocating blade up and down.</p>
+                </div>
+                <div class="game-block">
+                    <h2>JACK HAMMER</h2>
+                    <img src="assets\gamess\g11.jpg" alt="FINAL FANTASY XIV Online" class="game-image" data-img-src="g4.jpg">
+                    <p>A jackhammer is a heavy-duty pneumatic or electric tool used for breaking up, demolishing, or drilling through hard materials like concrete, asphalt, or rock.</p>
+                </div>
+                <div class="game-block">
+                    <h2>CAR WASH</h2>
+                    <img src="assets\gamess\960.jpeg" alt="Once Human" class="game-image" data-img-src="g5.jpg">
+                    <p>A power washer is a high-pressure cleaning tool that uses a powerful stream of water to remove dirt, grime, and stains from surfaces such as driveways, sidewalks, buildings, and equipment.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h1 class="section-title">CONTACT</h1>
+            <div class="contact-links">
+                <a href="https://www.linkedin.com/in/athuls026/" target="_blank">
+                    <img src="assets/miscs/linkedinicon.png" alt="LinkedIn" class="contact-icon">
+                </a>
+                <a href="https://github.com/Athulkrishna026" target="_blank">
+                    <img src="assets/miscs/githubicon.png" alt="GitHub" class="contact-icon">
+                </a>
+            </div>
+        </section>
+    </div>
+
+    <div id="image-popup" class="popup">
+        <span class="close">&times;</span>
+        <img class="popup-content" id="popup-img">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
